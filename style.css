@@ -1,0 +1,164 @@
+/*master syles*/
+
+body {
+    font-family: "Share Tech", sans-serif;
+    margin: 0px;
+    background-color: black
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+/*nav styles*/
+
+.navwrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px ;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.navwrapper > .leftside >div {
+    margin: 30px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+}
+
+.navwrapper > .rightside >div {
+    margin: 30px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+    
+}
+
+.navwrapper > .center >div {
+    margin: 30px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+    
+}
+
+.navlinkwrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+.navwrapper > .backtotop > div {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+
+.navlinkwrapper a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navlinkwrapper:hover {
+    border-bottom: 1px solid white;
+}
+
+.navlinkwrapper a:hover {
+    color: white;
+}
+
+.brand {
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.leftside {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rightside {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+/* portfolio styles*/
+
+.portfolioitemswrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.portfolioitemwrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.subtitle:hover {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 45%;
+    padding-right: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+.profile-content-wrapper {
+    padding: 30px;
+
+}
+
+.profile-content-wrapper h1 {
+    color: white;
+}
+
+.profile-content-wrapper p {
+    color: gray;
+    font-size: 200%;
+}
+
+.profile-imag-wrapper {
+    width: 100%;
+}
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
